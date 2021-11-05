@@ -14,11 +14,14 @@
  }
 
  .container {
-    position: absolute;
+    position: relative;
     margin-top: 100px;
      
  }
-
+.row {
+     position: absolute;
+     left: 15%;
+}
  .container .row .left {
      display: inline-block;
      justify-content: safe left;
